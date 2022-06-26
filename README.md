@@ -8,8 +8,8 @@ Build a simple laravel development environment with docker-compose.
 ## Usage
 
 ```bash
-$ git clone https://github.com/reitouhozonn/my-lara-docker.git
-$ cd my-lara-docker
+$ git clone https://github.com/reitouhozonn/my-laravel-docker.git
+$ cd my-laravel-docker
 $ make create-project # Install the latest Laravel project
 ```
 
@@ -32,8 +32,8 @@ http://localhost
 ### web container
 
 - Base image
-  - [nginx](https://hub.docker.com/_/nginx):1.20-alpine
-  - [node](https://hub.docker.com/_/node):16-alpine
+  - [nginx](https://hub.docker.com/_/nginx):1.22
+  <!-- - [node](https://hub.docker.com/_/node):16 -->
 
 ### db container
 
